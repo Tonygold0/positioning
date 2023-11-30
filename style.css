@@ -24,6 +24,7 @@ body{
 }
 
 .container{
+    /* position: absolute; */
     width: 400px;
     height: 450px;
     background-color: rgba(69, 82, 82, 0.3);
@@ -54,6 +55,37 @@ body{
 ::placeholder{
     color: white;
 }
+.icons-container{
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.icons-container .fa-solid {
+    position: absolute;
+    left: 20em;
+    bottom: 15px;
+}
+.icon-p {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    
+}
+.fa-solid{
+    position: absolute;
+    left: 20em;
+    bottom: 15px;
+}
+
 
 .ps{
     width: 300px;
@@ -128,4 +160,18 @@ a{
     /* justify-content: center; */
     /* align-items: center; */
     /* padding: 20px 0; */
+}
+@media (max-width:640px) {
+    .container{
+        width: 200px;
+        height: 450px;
+        background-color: rgba(69, 82, 82, 0.3);
+        margin-top: 70px;
+        padding: 20px;
+        padding-left: 50px;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 0px 5px 30px rgb(75, 126, 173);
+    
+    }
 }
