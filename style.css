@@ -2,7 +2,7 @@ body{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    background-image: url(/images/blue-stationery-table.jpg);
+    background-image: url(images/blue-stationery-table.jpg);
     font-size: 20px;
     background-size: cover;
     background-attachment: fixed;
